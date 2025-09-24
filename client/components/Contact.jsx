@@ -7,7 +7,7 @@ const Contact = () => (
         I'm currently available for freelance work. If you have a project in mind, want to collaborate, or just want to say hi, feel free to reach out.
       </p>
       <a 
-        href="mailto:email@example.com"
+        href="mailto:ishandwivedi1210@gmail.com"
         className="inline-block bg-white text-black px-8 py-3 rounded-md font-medium hover:bg-neutral-200 transition-colors duration-300"
       >
         Contact Me

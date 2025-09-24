@@ -16,7 +16,7 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
       className="fixed top-0 left-0 right-0 z-50 py-4 px-8 bg-black/50 backdrop-blur-sm"
     >
-      <div className="container flex justify-between items-center">
+      <div className="flex justify-between items-center">
         <a href="#" className="text-2xl font-bold tracking-tighter text-teal-300">
             ID
         </a>

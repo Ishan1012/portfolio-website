@@ -1,11 +1,11 @@
 'use client';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import { ArrowDown } from 'lucide-react';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section id="home" className="h-110 w-full flex flex-col justify-center items-center relative">
+    <section id="home" className="h-120 w-full flex flex-col justify-center items-center relative">
       <div className="text-center">
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
@@ -29,6 +29,9 @@ const Hero = () => {
           className="text-lg md:text-2xl text-neutral-400"
           repeat={Infinity}
         />
+        <button onClick={() => {}} className='mt-10 py-3 px-8 rounded-md text-neutral-800 bg-white cursor-pointer'>
+          Contact Me
+        </button>
       </div>
     </section>
   );
