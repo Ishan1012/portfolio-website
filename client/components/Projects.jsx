@@ -5,6 +5,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import { projects } from '@/hooks/ProjectsHook';
+import Link from 'next/link';
 
 const Projects = () => {
   // Autoplay is passed as a plugin
@@ -69,22 +70,22 @@ const Projects = () => {
                     ))}
                   </div>
                   <div className="flex items-center space-x-4 mt-auto">
-                    <a
+                    <Link
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-neutral-400 hover:text-white transition-colors"
                     >
                       <Github size={20} />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-neutral-400 hover:text-white transition-colors"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
