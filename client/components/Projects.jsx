@@ -7,7 +7,12 @@ import { Github, ExternalLink } from 'lucide-react';
 import { projects } from '@/hooks/ProjectsHook';
 
 const Projects = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 4000 })]);
+  // Autoplay is passed as a plugin
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: true },
+    [Autoplay({ delay: 4000 })]
+  );
+
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const updateCurrent = useCallback(() => {
@@ -18,16 +23,19 @@ const Projects = () => {
 
   useEffect(() => {
     if (!emblaApi) return;
-    emblaApi.on("select", updateCurrent);
-    return () => emblaApi.off("select", updateCurrent);
+    emblaApi.on('select', updateCurrent);
+    updateCurrent(); // set initial index
+    return () => emblaApi.off('select', updateCurrent);
   }, [emblaApi, updateCurrent]);
 
-  const scrollTo = (index) => emblaApi && emblaApi.scrollTo(index);
+  const scrollTo = (index) => {
+    if (emblaApi) emblaApi.scrollTo(index);
+  };
 
   return (
     <section id="projects" className="py-20 px-4">
       <div className="container mx-auto">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
@@ -36,37 +44,64 @@ const Projects = () => {
         >
           My Work
         </motion.h2>
-        
+
+        {/* Carousel */}
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">
             {projects.map((project, index) => (
-              <div className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.33%] min-w-0 px-4" key={index}>
+              <div
+                key={index}
+                className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.33%] min-w-0 px-4"
+              >
                 <div className="border border-neutral-800 rounded-lg p-6 h-full flex flex-col">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-neutral-400 mb-4 flex-grow">{project.description}</p>
+                  <p className="text-neutral-400 mb-4 flex-grow">
+                    {project.description}
+                  </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((t) => (
-                      <span key={t} className="bg-neutral-800 text-xs px-2 py-1 rounded">
+                      <span
+                        key={t}
+                        className="bg-neutral-800 text-xs px-2 py-1 rounded"
+                      >
                         {t}
                       </span>
                     ))}
                   </div>
                   <div className="flex items-center space-x-4 mt-auto">
-                    <a href={project.github} target='_blank' className="text-neutral-400 hover:text-white transition-colors"><Github size={20} /></a>
-                    <a href={project.live} target='_blank' className="text-neutral-400 hover:text-white transition-colors"><ExternalLink size={20} /></a>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-neutral-400 hover:text-white transition-colors"
+                    >
+                      <Github size={20} />
+                    </a>
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-neutral-400 hover:text-white transition-colors"
+                    >
+                      <ExternalLink size={20} />
+                    </a>
                   </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-        
-        <div className="flex justify-center mt-6">
+
+        {/* Dot navigation */}
+        <div className="flex justify-center mt-6 gap-2">
           {projects.map((_, index) => (
             <button
               key={index}
+              type="button"
+              aria-label={`Go to slide ${index + 1}`}
               onClick={() => scrollTo(index)}
-              className={`embla__dot ${index === selectedIndex ? 'embla__dot--selected' : ''}`}
+              className={`h-3 w-3 rounded-full cursor-pointer border border-neutral-500 transition-colors ${index === selectedIndex ? 'bg-white' : 'bg-neutral-500/40'
+                }`}
             />
           ))}
         </div>
