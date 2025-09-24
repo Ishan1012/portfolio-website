@@ -1,1 +1,1 @@
-export const skills = ["React", "Next.js", "JavaScript", "Node.js", "Tailwind CSS", "Framer Motion", "Figma", "UI/UX Design"];
+export const skills = ["React", "Next.js", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "Express.js", "UI/UX Design"];

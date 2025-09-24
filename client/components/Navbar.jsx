@@ -17,8 +17,8 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 py-4 px-8 bg-black/50 backdrop-blur-sm"
     >
       <div className="container flex justify-between items-center">
-        <a href="#" className="text-xl font-bold tracking-tighter">
-          ID
+        <a href="#" className="text-2xl font-bold tracking-tighter text-teal-300">
+            ID
         </a>
         <div className="hidden md:flex items-center space-x-6 ml-25">
           {navLinks.map((link) => (
@@ -32,10 +32,10 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex items-center space-x-4">
-          <button className="text-neutral-400 hover:text-white transition-colors duration-300 cursor-pointer">
+          <button className="text-white hover:text-teal-300 transition-colors duration-300 cursor-pointer">
             Login
           </button>
-          <button className="border border-neutral-500 px-4 py-1.5 rounded-md text-sm hover:bg-white cursor-pointer hover:text-black transition-colors duration-300">
+          <button className="border border-white px-4 py-1.5 rounded-md text-sm hover:border-teal-300 hover:bg-teal-300 cursor-pointer hover:text-black transition-colors duration-300">
             Register
           </button>
         </div>
