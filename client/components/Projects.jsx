@@ -12,7 +12,7 @@ const Projects = () => {
   // Autoplay is passed as a plugin
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ delay: 4000, stopOnInteraction: false })]
+    [Autoplay({ delay: 3000, stopOnInteraction: false })]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -56,11 +56,11 @@ const Projects = () => {
                 className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.33%] min-w-0 px-4 select-none cursor-grab active:cursor-grabbing"
               >
                 <div className="border border-neutral-800 rounded-lg p-6 h-full flex flex-col">
-                  <div className="border border-neutral-900 mx-2 my-2 mb-8 rounded-md">
+                  <Link href={project.live} target='_blank' className="border border-neutral-900 mx-2 my-2 mb-8 rounded-md">
                     <Image src={project.img} width={500} height={250} alt={project.title} className='w-full h-auto rounded-md' />
-                  </div>
+                  </Link>
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-neutral-400 flex-grow">
+                  <p className="text-neutral-400 mb-2 flex-grow">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">

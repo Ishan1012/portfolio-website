@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Art Corner | A Responsive Image Generation Website",
-    img: "/preview/preview1.png",
+    img: "/preview/webp/preview1.webp",
     description: "A minimalist image generation platform built with bootstrap and next js, focusing on a clean user experience.",
     tech: ["Next.js", "Tailwind", "MongoDB", "REST API", "Express js"],
     github: "https://github.com/Ishan1012/Art-Corner-Web-App",
@@ -10,16 +10,16 @@ export const projects = [
   },
   {
     title: "MemoMate | An Interactive Mobile App",
-    img: "/preview/preview2new.png",
+    img: "/preview/webp/preview2new.webp",
     description: "MemoMate is a cross-platform React Native app that helps users track moods and daily thoughts with a clean, emoji-powered journal interface.",
     tech: ["React Native", "Expo", "Node.js"],
     github: "https://github.com/Ishan1012/first-app",
-    live: "#",
+    live: "https://github.com/Ishan1012/first-app",
     isOngoing: false,
   },
   {
     title: "TestBuddy | A Web API Testing Web App",
-    img: "/preview/preview3.png",
+    img: "/preview/webp/preview3.webp",
     description: "TestBuddy is a web-based API testing tool designed to help developers and QA engineers create, run, and manage test cases for RESTful APIs.",
     tech: ["React.js", "Bootstrap"],
     github: "https://github.com/Ishan1012/web-api-testing",
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: "Wellnest | A Medical Appointment Booking Software",
-    img: "/preview/preview4.png",
+    img: "/preview/webp/preview4.webp",
     description: "A comprehensive medical clinic software designed to streamline patient management, appointments, and billing. Enhances clinic efficiency with user-friendly interfaces and robust data handling features.",
     tech: ["Next.js", "Tailwind", "MongoDB", "REST API", "Express js"],
     github: "https://github.com/Ishan1012/medical-software",
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: "Code Diary | A Collection Of Mini Projects",
-    img: "/preview/preview5.png",
+    img: "/preview/webp/preview5.webp",
     description: "A collection of mini project made by using HTML, CSS and Javascript. It is a gamified portfolio of my mini projects.",
     tech: ["Next.js", "Tailwind", "REST API"],
     github: "https://github.com/Ishan1012/portfolio",
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: "CodeDuo | A Gamified Quiz App for Coders",
-    img: "/preview/preview6.png",
+    img: "/preview/webp/preview6.webp",
     description: "A coding quiz application with user authentication, leaderboards, and interactive quizzes.",
     tech: ["Next.js", "Tailwind", "MongoDB", "REST API", "Express js"],
     github: "https://github.com/Ishan1012/codeduo",

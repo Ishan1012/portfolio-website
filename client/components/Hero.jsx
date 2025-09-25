@@ -20,7 +20,7 @@ const Hero = () => {
             2000,
             "I'm a UI/UX Enthusiast.",
             2000,
-            "I try to build beautiful web experiences.",
+            "I build minimalist web experiences.",
             2000,
           ]}
           wrapper="p"

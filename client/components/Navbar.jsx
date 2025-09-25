@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -17,9 +18,9 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 py-4 px-8 bg-black/50 backdrop-blur-sm"
     >
       <div className="flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold tracking-tighter text-white hover:scale-[1.2] transition duration-100">
-            I<span className='text-teal-300'>D</span>
-        </a>
+        <Link href="/" className="text-2xl font-bold tracking-tighter text-white hover:scale-[1.2] transition duration-300">
+          I<span className='text-teal-300'>D</span>
+        </Link>
         <div className="hidden md:flex items-center space-x-6 ml-25">
           {navLinks.map((link) => (
             <a
