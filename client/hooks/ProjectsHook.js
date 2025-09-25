@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "CodeDuo | A Gamified Quiz App for Coders",
     description: "A coding quiz application with user authentication, leaderboards, and interactive quizzes.",
-    tech: ["HTML5", "CSS", "Javascript"],
+    tech: ["Next.js", "Tailwind", "MongoDB", "REST API", "Express js"],
     github: "https://github.com/Ishan1012/codeduo",
     live: "https://codeduojs.vercel.app/",
     isOngoing: true,
