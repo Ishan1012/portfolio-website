@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "MemoMate | An Interactive Mobile App",
-    img: "",
+    img: "/preview/preview2new.png",
     description: "MemoMate is a cross-platform React Native app that helps users track moods and daily thoughts with a clean, emoji-powered journal interface.",
     tech: ["React Native", "Expo", "Node.js"],
     github: "https://github.com/Ishan1012/first-app",
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: "Wellnest | A Medical Appointment Booking Software",
-    img: "",
+    img: "/preview/preview4.png",
     description: "A comprehensive medical clinic software designed to streamline patient management, appointments, and billing. Enhances clinic efficiency with user-friendly interfaces and robust data handling features.",
     tech: ["Next.js", "Tailwind", "MongoDB", "REST API", "Express js"],
     github: "https://github.com/Ishan1012/medical-software",
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: "Code Diary | A Collection Of Mini Projects",
-    img: "/preview/preview2.png",
+    img: "/preview/preview5.png",
     description: "A collection of mini project made by using HTML, CSS and Javascript. It is a gamified portfolio of my mini projects.",
     tech: ["Next.js", "Tailwind", "REST API"],
     github: "https://github.com/Ishan1012/portfolio",
