@@ -21,7 +21,7 @@ const Navbar = () => {
         <Link href="/" className="text-2xl font-bold tracking-tighter text-white hover:scale-[1.2] transition duration-300">
           I<span className='text-teal-300'>D</span>
         </Link>
-        <div className="hidden md:flex items-center space-x-6 ml-25">
+        <div className="hidden md:flex items-center space-x-6 ml-12">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -33,11 +33,11 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex items-center space-x-4">
-          <button className="text-white hover:text-teal-300 transition-colors duration-300 cursor-pointer">
+          {/* <button className="text-white hover:text-teal-300 transition-colors duration-300 cursor-pointer">
             Login
-          </button>
+          </button> */}
           <button className="border border-white px-4 py-1.5 rounded-md text-sm hover:border-teal-300 hover:bg-teal-300 cursor-pointer hover:text-black transition-colors duration-300">
-            Register
+            Support
           </button>
         </div>
       </div>
