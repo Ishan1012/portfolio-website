@@ -15,7 +15,7 @@ const About = () => (
     </motion.div>
     <Section id="about" title="About Me">
       <p className="max-w-md mx-auto text-center text-neutral-400">
-        I am a passionate developer with over 20 years of experience in creating elegant and efficient solutions. My philosophy is rooted in minimalist design, believing that simplicity is the ultimate sophistication. I thrive on turning complex problems into beautiful, intuitive digital experiences.
+        Tech enthusiast focusing on web development, UI/UX design, and machine learning. Experienced in designing user-centric applications, including a responsive portfolio and creative UI/UX challenges, committed to delivering innovative solutions and advancing technical and design expertise. 
       </p>
     </Section>
   </div>
