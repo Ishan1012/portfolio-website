@@ -6,12 +6,13 @@ import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import { projects } from '@/hooks/ProjectsHook';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Projects = () => {
   // Autoplay is passed as a plugin
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ delay: 4000 })]
+    [Autoplay({ delay: 4000, stopOnInteraction: false })]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -52,11 +53,14 @@ const Projects = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.33%] min-w-0 px-4"
+                className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.33%] min-w-0 px-4 select-none cursor-grab active:cursor-grabbing"
               >
                 <div className="border border-neutral-800 rounded-lg p-6 h-full flex flex-col">
+                  <div className="border border-neutral-900 mx-2 my-2 mb-8">
+                    <Image src={project.img} width={200} height={100} alt={project.title} className='w-full h-auto rounded-md' />
+                  </div>
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-neutral-400 mb-4 flex-grow">
+                  <p className="text-neutral-400 flex-grow">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
