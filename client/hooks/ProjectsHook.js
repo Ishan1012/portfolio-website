@@ -36,15 +36,6 @@ export const projects = [
     isOngoing: true,
   },
   {
-    title: "Code Diary | A Collection Of Mini Projects",
-    img: "/preview/webp/preview5.webp",
-    description: "A collection of mini project made by using HTML, CSS and Javascript. It is a gamified portfolio of my mini projects.",
-    tech: ["Next.js", "Tailwind", "REST API"],
-    github: "https://github.com/Ishan1012/portfolio",
-    live: "https://thecodediary.vercel.app/",
-    isOngoing: true,
-  },
-  {
     title: "CodeDuo | A Gamified Quiz App for Coders",
     img: "/preview/webp/preview6.webp",
     description: "A coding quiz application with user authentication, leaderboards, and interactive quizzes.",
