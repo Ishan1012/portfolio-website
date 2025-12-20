@@ -1,7 +1,7 @@
 'use client';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Code, Github, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
 
 const Hero = () => {
