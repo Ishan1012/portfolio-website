@@ -6,6 +6,7 @@ const navLinks = [
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
+  { name: "Certifications", href: "#certifications" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -33,12 +34,9 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex items-center space-x-4">
-          {/* <button className="text-white hover:text-teal-300 transition-colors duration-300 cursor-pointer">
-            Login
-          </button> */}
-          <button className="border border-white px-4 py-1.5 rounded-md text-sm hover:border-teal-300 hover:bg-teal-300 cursor-pointer hover:text-black transition-colors duration-300">
-            Support
-          </button>
+          <a href='mailto:ishandwivedi1210@gmail.com' className="border border-white px-4 py-1.5 rounded-md text-sm hover:border-teal-300 hover:bg-teal-300 cursor-pointer hover:text-black transition-colors duration-300">
+            Hire Me
+          </a>
         </div>
       </div>
     </motion.nav>
