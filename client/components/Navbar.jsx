@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-4">
           <a href='mailto:ishandwivedi1210@gmail.com' className="border border-white px-4 py-1.5 rounded-md text-sm hover:border-teal-300 hover:bg-teal-300 cursor-pointer hover:text-black transition-colors duration-300">
-            Hire Me
+            Contact Me
           </a>
         </div>
       </div>
