@@ -45,12 +45,12 @@ export const projects = [
     isOngoing: false,
   },
   {
-    title: "Tapestry | A Cultural Fest Web Application",
-    img: "/preview/webp/preview14.webp",
-    description: "Tapestry is a college cultural fest web application that unites students through events, performances, competitions, and creative showcases on one dynamic digital platform.",
-    tech: ["Next.js", "Tailwind"],
-    github: "https://github.com/Ishan1012/ignitia-website",
-    live: "https://tapestryjs.vercel.app/",
+    title: "AI Bach Chorale Generator",
+    img: "/preview/webp/preview15.webp",
+    description: "An AI-powered application that generates Bach-style chorales using machine learning techniques.",
+    tech: ["Streamlit", "Pytorch"],
+    github: "https://github.com/Ishan1012/Music-Composing-DL",
+    live: "https://musicdl.streamlit.app/",
     isOngoing: false,
   },
 ];
