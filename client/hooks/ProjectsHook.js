@@ -36,12 +36,12 @@ export const projects = [
     isOngoing: false,
   },
   {
-    title: "TestBuddy | A Web API Testing Web App",
-    img: "/preview/webp/preview3.webp",
-    description: "TestBuddy is a web-based API testing tool designed to help developers and QA engineers create, run, and manage test cases for RESTful APIs.",
-    tech: ["React.js", "Bootstrap"],
-    github: "https://github.com/Ishan1012/web-api-testing",
-    live: "https://apitestbuddy.vercel.app/",
+    title: "AI News Summarization Pipeline",
+    img: "/preview/webp/preview16.webp",
+    description: "An AI-powered news summarization tool that generates concise summaries of news articles using natural language processing techniques that is scraped through a custom web scraper.",
+    tech: ["Streamlit", "Pytorch", "BeautifulSoup4", "requests"],
+    github: "https://github.com/Ishan1012/ai-news-pipeline",
+    live: "https://ainewspipeline.streamlit.app/",
     isOngoing: false,
   },
   {
