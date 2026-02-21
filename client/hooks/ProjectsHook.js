@@ -47,7 +47,7 @@ export const projects = [
   {
     title: "AI Bach Chorale Generator",
     img: "/preview/webp/preview15.webp",
-    description: "An AI-powered application that generates Bach-style chorales using machine learning techniques.",
+    description: "An AI-powered application that generates Bach-style chorales using 1D CNN model trained on a dataset of Bach chorales.",
     tech: ["Streamlit", "Pytorch"],
     github: "https://github.com/Ishan1012/Music-Composing-DL",
     live: "https://musicdl.streamlit.app/",
