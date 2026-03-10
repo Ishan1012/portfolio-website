@@ -34,5 +34,25 @@ export const skills = [
     {
         icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
         name: "UI/UX Design"
-    }
+    },
+    {
+        icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+        name: "Machine Learning"
+    },
+    {
+        icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+        name: "Deep Learning"
+    },
+    {
+        icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+        name: "Generative Ai Integration"
+    },
+    {
+        icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+        name: "Data Structures & Algorithms"
+    },
+    {
+        icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+        name: "SQL"
+    },
 ];

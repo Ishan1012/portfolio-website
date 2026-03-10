@@ -45,7 +45,7 @@ const Hero = () => {
         </motion.h1>
         <TypeAnimation
           sequence={[
-            "I'm a Software Engineer.",
+            "I'm an Aspiring Software Engineer.",
             2000,
             "I'm a Guardian @ Leetcode.",
             2000,

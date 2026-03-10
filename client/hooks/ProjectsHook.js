@@ -50,7 +50,7 @@ export const projects = [
     description: "An AI-powered application that generates Bach-style chorales using 1D CNN model trained on a dataset of Bach chorales.",
     tech: ["Streamlit", "Pytorch"],
     github: "https://github.com/Ishan1012/Music-Composing-DL",
-    live: "https://musicdl.streamlit.app/",
+    live: "https://choralegen.streamlit.app/",
     isOngoing: false,
   },
 ];
