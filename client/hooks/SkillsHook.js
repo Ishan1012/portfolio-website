@@ -45,7 +45,7 @@ export const skills = [
     },
     {
         icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
-        name: "Generative Ai Integration"
+        name: "Generative AI Integration"
     },
     {
         icon: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
