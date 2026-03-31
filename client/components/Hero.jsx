@@ -49,7 +49,7 @@ const Hero = () => {
             2000,
             "I'm a Guardian @ Leetcode.",
             2000,
-            "I'm a UI/UX Enthusiast.",
+            "I ranked 13243 in GATE 2026 (CS/IT).",
             2000,
             "I build minimalist web experiences.",
             2000,
