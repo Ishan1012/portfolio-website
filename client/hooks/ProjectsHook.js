@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Wellnest | A Medical Appointment Booking Software",
     img: "/preview/webp/preview4.webp",
-    description: "A comprehensive medical clinic software designed to streamline patient management, appointments, and billing. Enhances clinic efficiency with user-friendly interfaces and robust data handling features.",
+    description: "A comprehensive medical clinic software designed to streamline patient management, appointments, and billing.",
     tech: ["Next.js", "Tailwind", "MongoDB", "REST API", "Express js"],
     github: "https://github.com/Ishan1012/medical-software",
     live: "https://wellnestjs.vercel.app/",
@@ -51,6 +51,15 @@ export const projects = [
     tech: ["Streamlit", "Pytorch"],
     github: "https://github.com/Ishan1012/Music-Composing-DL",
     live: "https://choralegen.streamlit.app/",
+    isOngoing: false,
+  },
+  {
+    title: "Research Assistant using Spring AI",
+    img: "/preview/webp/preview18.webp",
+    description: "This Research Assistant is a minimal, AI-powered research assistant designed to perform two high-value tasks: summarization and intelligent suggestion.",
+    tech: ["Spring AI", "Vite", "Tailwind", "Spring Boot", "Java"],
+    github: "https://github.com/Ishan1012/research-assistant",
+    live: "https://researchassistantjs.vercel.app/",
     isOngoing: false,
   },
 ];

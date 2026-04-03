@@ -1,5 +1,12 @@
 const certifications = [
     {
+        title: "Machine Learning Specialization",
+        img: "/preview/webp/preview20.webp",
+        description: "A comprehensive machine learning specialization covering supervised and unsupervised learning, deep learning, and reinforcement learning, with practical applications and real-world projects.",
+        author: "DeepLearning.AI (Coursera)",
+        link: "https://www.coursera.org/account/accomplishments/specialization/IYIQH492OLY1"
+    },
+    {
         title: "Generative AI in Software Development",
         img: "/preview/webp/preview17.webp",
         description: "Use Generative AI tools to enhance software development, including code generation, debugging, and documentation, while understanding ethical implications and best practices.",
