@@ -1,31 +1,38 @@
 const certifications = [
     {
+        title: "IBM Data Engineering Professional Certificate",
+        img: "/preview/webp/cert4.webp",
+        description: "A comprehensive data engineering certificate covering data modeling, ETL pipelines, cloud data services, SQL, and hands-on real-world projects.",
+        author: "IBM (Coursera)",
+        link: "https://coursera.org/verify/professional-cert/E3SN9KTBHBAR"
+    },
+    {
+        title: "IBM Generative AI Engineering Professional Certificate",
+        img: "/preview/webp/cert1.webp",
+        description: "A comprehensive generative AI certificate covering foundation models, prompt engineering, AI ethics, and deployment of generative AI systems.",
+        author: "IBM (Coursera)",
+        link: "https://coursera.org/verify/professional-cert/FKACFMEBW6BN"
+    },
+    {
+        title: "Amazon Junior Software Developer Professional Certificate",
+        img: "/preview/webp/cert2.webp",
+        description: "A professional certificate focused on software development fundamentals, covering coding, debugging, testing, and building applications with modern tools and best practices.",
+        author: "Amazon (Coursera)",
+        link: "https://coursera.org/verify/professional-cert/N73MKEZK8NNH"
+    },
+    {
+        title: "IBM Java Developer Professional Certificate",
+        img: "/preview/webp/cert3.webp",
+        description: "A comprehensive Java development certificate covering object-oriented programming, data structures, and enterprise application development.",
+        author: "IBM (Coursera)",
+        link: "https://coursera.org/verify/professional-cert/SM2ISJ2BTDHF"
+    },
+    {
         title: "Machine Learning Specialization",
         img: "/preview/webp/preview20.webp",
         description: "A comprehensive machine learning specialization covering supervised and unsupervised learning, deep learning, and reinforcement learning, with practical applications and real-world projects.",
         author: "DeepLearning.AI (Coursera)",
         link: "https://www.coursera.org/account/accomplishments/specialization/IYIQH492OLY1"
-    },
-    {
-        title: "Generative AI in Software Development",
-        img: "/preview/webp/preview17.webp",
-        description: "Use Generative AI tools to enhance software development, including code generation, debugging, and documentation, while understanding ethical implications and best practices.",
-        author: "Amazon (Coursera)",
-        link: "https://www.coursera.org/account/accomplishments/verify/QP85ETUIMXAX"
-    },
-    {
-        title: "Supervised Machine Learning: Regression and Classification",
-        img: "/preview/webp/preview11.webp",
-        description: "Develop Python-based machine learning models with NumPy and scikit-learn, training algorithms for prediction and classification, including linear and logistic regression.",
-        author: "DeepLearning.AI (Coursera)",
-        link: "https://www.coursera.org/account/accomplishments/verify/5KDWVNDPZEQP"
-    },
-    {
-        title: "Data Structures and Algorithms",
-        img: "/preview/webp/preview12.webp",
-        description: "Design, implement, and evaluate Java data structures and algorithms, apply recursion to problems, and optimize using searching and sorting techniques.",
-        author: "Amazon (Coursera)",
-        link: "https://www.coursera.org/account/accomplishments/verify/B9KK1K0A8MNO"
     },
     {
         title: "Next.js Web Dev: Master this Powerful React Framework",
